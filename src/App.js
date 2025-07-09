@@ -1,5 +1,21 @@
+import Card from "./components/Card";
+import Greeting from "./components/Greeting";
+
 function App() {
-  return <div className="wrap">Hello world</div>;
+  return (
+    <div className="wrap">
+      {/* 인사말 컴포넌트 */}
+      <Greeting />
+      {/* 카드 컴포넌트 */}
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+    </div>
+  );
 }
 
 export default App;

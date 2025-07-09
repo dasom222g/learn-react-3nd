@@ -1,0 +1,12 @@
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+}
+
+img {
+  width: 100%;
+}
