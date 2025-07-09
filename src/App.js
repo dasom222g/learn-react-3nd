@@ -1,4 +1,5 @@
-import Card from "./components/Card";
+// import Card from "./components/Card";
+import Counter from "./components/Counter";
 import Greeting from "./components/Greeting";
 
 function App() {
@@ -6,8 +7,10 @@ function App() {
     <div className="wrap">
       {/* 인사말 컴포넌트 */}
       <Greeting />
+      {/* counter 컴포넌트 */}
+      <Counter />
       {/* 카드 컴포넌트 */}
-      <div className="card-wrap">
+      {/* <div className="card-wrap">
         <Card />
         <Card />
         <Card />
@@ -15,7 +18,7 @@ function App() {
         <Card />
         <Card />
         <Card />
-      </div>
+      </div> */}
     </div>
   );
 }
