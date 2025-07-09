@@ -7,13 +7,15 @@ function App() {
       {/* 인사말 컴포넌트 */}
       <Greeting />
       {/* 카드 컴포넌트 */}
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
+      <div className="card-wrap">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </div>
     </div>
   );
 }
